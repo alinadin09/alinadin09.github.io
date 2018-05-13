@@ -65,7 +65,7 @@ footer {
 	border-top: black 3px solid;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 519px) {
 	.mainImage {
 		display: inline-block;
 	}
