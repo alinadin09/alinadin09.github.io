@@ -1,0 +1,153 @@
+/*CSS was created with help from Joe Mesot:
+https://www.youtube.com/watch?v=il3JC5lM9eU&list=PL-cvXc6nraP9lzF1HGWzz3sqnVgebRyrq&index=2
+and and Traversy Media
+https://www.youtube.com/watch?v=Wm6CUkswsNw&t=1649s*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body {
+	box-sizing: border;
+	font: 15px/1.5 'Playfair Display', serif;
+	padding: 0;
+	margin: 0;
+	background-color: #ece2e2;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+/*global container*/
+
+.header-txt {
+	font-size:7vw;
+}
+
+h1, h3, p {
+	font-size:5vw;
+}
+
+/*end global container*/
+
+/*header*/
+.header {
+	background-color: #ffffff;
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+.featured-work h2,
+.featured-item {
+	text-align: center;
+}
+
+.featured-work {
+	margin-top: 30px;
+}
+
+.featured-item {
+	margin: 20px 0;
+}
+
+.mainImage {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #ffffff;
+	text-align: center;
+	border-top: black 3px solid;
+}
+
+@media screen and (max-width: 414px) {
+	.mainImage {
+		display: inline-block;
+	}
+}
+
+@media screen and (min-width: 415px) {
+
+	.header-txt {
+		font-size:5vw;
+		padding-right: 20px;
+	}
+
+	h1, h3, p {
+		font-size:3vw;
+	}
+
+	.featured-img {
+		width: 100%
+	}
+}
+
+@media screen and (max-width: 649px) {
+	.header-logo {
+		display: none;
+	}
+
+	.header {
+		overflow: hidden;
+	}
+}
+
+@media screen and (min-width: 650px){
+	.header {
+		margin: 0 auto 30px;
+		justify-content: space-between;
+		text-align: left;
+	}
+
+	.header-txt {
+		text-align: right;
+	}
+
+	.header-logo {
+		text-align: left;
+	}
+
+	.header,
+	.featured {
+		display: flex;
+		max-width: 1440px;
+	}
+
+	.featured {
+		margin: 30px auto 0;
+	}
+}
+
+	.featured-item {
+		margin: 20px;
+	}
+}
+
+@media screen and (min-width: 670px) {
+	.header-txt {
+		font-size: 4vw;
+	}
+
+	h1, h2, h3, p {
+		font-size: 2vw;
+	}
+
+	.content {
+		width: 670px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
+
+
+
+
+
+
